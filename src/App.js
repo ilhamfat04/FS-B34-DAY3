@@ -12,6 +12,7 @@ import GuestGreeting from './GuestGreeting'
 import ExampleComp from './ExampleComp'
 
 import { UserContext } from './context/userContext'
+import List from './component/List'
 
 function App() {
 
@@ -66,7 +67,8 @@ function App() {
 
     return (
         <>
-            <ExampleComp />
+            <List />
+            {/* <ExampleComp />
             {state.isLogin ? <Welcome /> :
                 (<>
                     <GuestGreeting />
@@ -100,7 +102,7 @@ function App() {
                             </Col>
                         </Row>
                     </Container>
-                </>)}
+                </>)} */}
         </>
     )
 }
