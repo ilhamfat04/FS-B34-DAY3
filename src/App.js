@@ -9,6 +9,7 @@ import {
 
 import Welcome from './Welcome'
 import GuestGreeting from './GuestGreeting'
+import ExampleComp from './ExampleComp'
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
 
     return (
         <>
+            <ExampleComp user={state.user} />
             {state.isLogin ? <Welcome /> :
                 (<>
                     <GuestGreeting />
