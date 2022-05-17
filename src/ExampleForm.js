@@ -14,6 +14,8 @@ function ExampleForm() {
     password: ""
   })
 
+  prevState
+
   const handleOnChange = (e) => {
     // setState here
     setState({
